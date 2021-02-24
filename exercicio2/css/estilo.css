@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+}
+#bloco{
+    width: 1200px; 
+    height: 900px; 
+    background-color: #D3D3D3;
+    margin: 0 auto;
+}
+.barra{
+    height: 100px;
+    background: #4682B4;
+}
+.barra p{
+    color:#fff;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 20px;
+}
+.formatacao_p{
+    padding: 10px 20px; 
+}
+.coluna{
+    margin-top:10px;
+    width: 33%;
+    height: 250px; 
+    display: inline-block;   
+}
+ .imgDir {
+    width: 130px;
+    float: right;
+    padding: 20px;
+  
+}
+.imgEsq {
+    width: 80px;
+    float: left;
+    padding: 20px;
+    
+}
+.imgCent {   
+    width: 500px;    
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+ 
+ 
+
+
+
