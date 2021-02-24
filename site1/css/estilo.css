@@ -1,0 +1,48 @@
+/*Tirar margem (espaço) superior da tela*/ 
+*{
+  margin:  0;
+}
+
+#geral{
+    width: 1000px; 
+    height: 800px; 
+    background-color: #ccc;
+    margin: 0 auto; /* Serve para centralizar elemento de bloco na tela*/
+} 
+
+/*  ponto (.) é uma Class, pode usar em vários momentos*/
+.barra_azul{
+    height: 100px;
+    background: blue;
+}
+
+.barra_azul p{
+    color: #fff;
+    text-align: center;
+    font-size: 56px; 
+    padding-top: 15px; /*Ajusta o texto no P */
+}
+
+.formatacao_p{
+    padding: 10px 15px; 
+}
+
+.imagem_esquerda{
+    float: left; /*a imagem vai ficar a esquerda do texto */
+    padding: 15px;  /*Ajusta todos os lados da imagem*/
+}
+.banner{
+    width: 33%;
+    height: 250px;
+    background: #ccffcc;
+    display: inline-block;
+ }
+ .banner1{
+     background: green;
+ }
+  .banner2{
+     background: greenyellow;
+ }
+  .banner3{
+     background: yellow;
+ }
