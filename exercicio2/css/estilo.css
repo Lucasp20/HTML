@@ -10,6 +10,10 @@
 .barra{
     height: 100px;
     background: #4682B4;
+    color:#fff;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 20px;
 }
 .barra p{
     color:#fff;
