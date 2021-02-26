@@ -10,22 +10,20 @@
 .barra{
     height: 100px;
     background: #4682B4;
-    color:#fff;
-    text-align: center;
-    font-size: 46px;
-    padding-top: 20px;
 }
 .barra p{
     color:#fff;
     text-align: center;
     font-size: 46px;
+    font-family: Constantia, Arial, Helvetica;
     padding-top: 20px;
 }
 .formatacao_p{
-    padding: 10px 20px; 
+    padding: 10px 15px; 
+    
 }
 .coluna{
-    margin-top:50px;
+    margin-top:40px;
     width: 33%;
     height: 200px; 
     display: inline-block;   
