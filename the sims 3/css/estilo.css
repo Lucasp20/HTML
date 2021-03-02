@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#geral {
+    width: 800px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+.barra_layout{
+    width: 800px;
+    height: 40px;
+    background: #215;
+}
+/*Botão entrar padding ajusta o "entrar"*/
+.entrar{
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding: 10px 30px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#logo img{
+    width: 200px;
+    height: 200px;
+}
+
+#banner {
+    width: 600px;
+    height: 200px;
+    background: #ccc;
+    float: right;
+}
+
+#banner img{
+    width: 600px;
+    height: 200px;
+}
+#menu{
+    clear: both;
+}
+#artigo_1{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+#artigo_2{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+/*Alinhar texto no centro dentro do bloco*/
+.titulo_1{
+    text-align: center;
+    font: bold 16px verdana, sans-serif;
+    margin: 30px 0 25px;
+}
+.img_centralizada{
+    display: block;
+    margin: auto;
+    width: 250px;
+    border: 2px solid #215;
+    margin-bottom: 35px;
+}
+/*Deixar a borda aredondada "border-radius"*/
+.img_direita{
+    display: block;
+    margin: 70px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+/*Colocar espaço na primeira linha "text-indent: 10px"*/
+.texto_p{
+    padding: 0 15px;
+}
+
+.link_leia{
+    float: right;
+    
+}
+
+#rodape{
+   clear: both;   
+}
+
+
+
