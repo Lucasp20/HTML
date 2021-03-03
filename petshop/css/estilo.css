@@ -1,0 +1,27 @@
+
+/* caixa geral(fundo) */
+#geral{
+    width: 1000px;
+    height: 720px;
+    margin: 0 auto;
+}
+ .banner{
+    width: 1000px;
+    height: 190px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+
+}
+.img_superior{
+    width: 1000px;
+    border-radius: 10px;
+}
+.barra_layout{
+    width: 1000px;
+    height: 35px;
+    background:	#33a333;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 5px auto 10px;
+}
