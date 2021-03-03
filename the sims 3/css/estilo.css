@@ -47,6 +47,19 @@
 #menu{
     clear: both;
 }
+#menu ul{
+    padding-top: 12px; 
+    text-align: center;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 50px;
+}
+
 #artigo_1{
     width: 400px;
     height: 400px;
@@ -65,7 +78,7 @@
 }
 .img_centralizada{
     display: block;
-    margin: auto;
+    margin: 0 auto 35px;
     width: 250px;
     border: 2px solid #215;
     margin-bottom: 35px;
@@ -73,9 +86,10 @@
 /*Deixar a borda aredondada "border-radius"*/
 .img_direita{
     display: block;
-    margin: 70px;
+    margin: 50px auto 35px;
     width: 270px;
     border-radius: 20px;
+    
 }
 
 /*Colocar espaço na primeira linha "text-indent: 10px"*/
@@ -90,6 +104,13 @@
 
 #rodape{
    clear: both;   
+}
+
+.rodape{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 13px;
 }
 
 
