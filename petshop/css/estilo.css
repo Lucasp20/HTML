@@ -83,6 +83,7 @@
 }
 .texto_p{
     padding: 0 15px;
+   
 }
  #banner2{
     width: 195px;
@@ -94,6 +95,12 @@
 } 
 .img_racao{
     border-radius: 5px;
+}
+.link_leia{
+    font: bold 12px arial, verdana, sans-serif;
+    float: right;
+    text-decoration: none;
+
 }
 
 /*Puxa a mesma cor da barra layout*/
