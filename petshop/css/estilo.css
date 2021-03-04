@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
  .banner{
-    width: 1000px;
+    width: 996px;
     height: 190px;
     background: #fff;
     border: 2px solid #000;
@@ -14,14 +14,66 @@
 
 }
 .img_superior{
-    width: 1000px;
+    width: 996px;
     border-radius: 5px;
 }
 .barra_layout{
-    width: 1000px;
+    width: 996px;
     height: 35px;
-    background:	#33a333;
+    background:	#37af37;
     border: 2px solid #000;
     border-radius: 8px;
     margin: 5px auto 5px;
+}
+#art1{
+    width: 259px;
+    height: 220px;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+#art2{
+    width: 259px;
+    height: 220px;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 0 4px 0;
+}
+#art3{
+    width: 259px;
+    height: 220px;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+#art4{
+    width: 794px;
+    height: 221px;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin: 5px auto 0;
+}
+ #banner2{
+    width: 195px;
+    height: 450px;
+    float: right;
+    border: 2px solid #000;
+    border-radius: 8px;
+    
+} 
+/*Puxa a mesma cor da barra layout*/
+#rodape{
+    clear: both;
+    
+}
+.rodape{
+    width: 996px;
+    height: 35px; 
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    margin: 8px
 }
