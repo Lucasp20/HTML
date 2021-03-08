@@ -128,7 +128,7 @@
     width: 996px;
     height: 35px; 
     color: #fff;
-    font-size: 13px;
+    font: bold 13px arial, verdana, sans-serif;
     text-align: center;
     margin: 8px
 }
