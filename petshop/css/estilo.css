@@ -7,11 +7,11 @@
 }
  .banner{
     width: 996px;
-    height: 190px;
-    background: #fff;
+    height: 185px;
+    background: url(../imagem/logo.png); /*imagem via css*/
     border: 2px solid #000;
     border-radius: 8px;
-
+    
 }
 .img_superior{
     width: 996px;
@@ -24,6 +24,22 @@
     border: 2px solid #000;
     border-radius: 8px;
     margin: 5px auto 5px;
+}
+#menu{
+    clear: both;
+}
+#menu ul{
+    text-align: center;
+    margin: 10px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 50px;
+    font: bold 15px arial, verdana, sans-serif;
 }
 #art1{
     width: 259px;
@@ -64,12 +80,13 @@
     margin: 40px 0 15px
 }
 #art4{
-    width: 794px;
+    width: 793px;
     height: 221px;
     float: left;
     border: 2px solid #000;
     border-radius: 8px;
     margin: 5px auto 0;
+
 }
 .titulo_4{
     text-align: center;
@@ -89,9 +106,9 @@
     width: 195px;
     height: 450px;
     float: right;
+    background: url(../imagem/racao.png); /*imagem via css*/
     border: 2px solid #000;
-    border-radius: 8px;  
-    
+    border-radius: 8px; 
 } 
 .img_racao{
     border-radius: 5px;
