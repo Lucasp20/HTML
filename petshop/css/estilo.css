@@ -12,7 +12,9 @@
     border: 2px solid #000;
     border-radius: 8px;
     
+    
 }
+
 .img_superior{
     width: 996px;
     border-radius: 5px;
@@ -41,6 +43,20 @@
     padding: 0 50px;
     font: bold 15px arial, verdana, sans-serif;
 }
+#lado_esquerdo{
+    width: 800px;
+    height: 450px;
+    float: left;
+    
+}
+#lado_direito{
+    width: 195px;
+    height: 450px;
+    float: right;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background:  url(../imagem/racao.png);
+} 
 #art1{
     width: 259px;
     height: 220px;
@@ -124,9 +140,7 @@
     display: block;
     border-radius: 20px;
     border: 1px solid #215;
-    margin: 50px 10px 50px;
-    
-    
+    margin: 50px 20px 50px;    
 }
 
 /*Puxa a mesma cor da barra layout*/
