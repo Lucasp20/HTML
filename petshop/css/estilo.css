@@ -119,6 +119,15 @@
     text-decoration: none;
 
 }
+.img_acessorio{
+    width: 270px;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #215;
+    margin: 50px 10px 50px;
+    
+    
+}
 
 /*Puxa a mesma cor da barra layout*/
 #rodape{
