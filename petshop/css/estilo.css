@@ -5,25 +5,21 @@
     height: 720px;
     margin: 0 auto;
 }
- .banner{
+ #banner{
     width: 996px;
     height: 185px;
     background: url(../imagem/logo.png); /*imagem via css*/
-    border: 2px solid #000;
-    border-radius: 8px;
-    
     
 }
-
-.img_superior{
-    width: 996px;
-    border-radius: 5px;
+.border_layout{
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 .barra_layout{
     width: 996px;
     height: 35px;
     background:	#37af37;
-    border: 2px solid #000;
     border-radius: 8px;
     margin: 5px auto 5px;
 }
@@ -32,7 +28,7 @@
 }
 #menu ul{
     text-align: left;
-    margin: 10px;
+    margin: 8px;
 }
 #menu ul li{
     display: inline;
@@ -47,7 +43,7 @@
     width: 800px;
     height: 450px;
     float: left;
-    
+        
 }
 #lado_direito{
     width: 195px;
@@ -55,8 +51,33 @@
     float: right;
     border: 2px solid #000;
     border-radius: 8px;
-    background:  url(../imagem/racao.png);
+    background: url(../imagem/racao.png);
 } 
+
+.lista_nao_ordenada{
+    margin: 30px 0 0 0;
+   /* list-style-type: circle; /*Tirara as bolinhas laterais*/
+}
+.estilo_ordenado{
+    list-style-type: upper-roman;
+}
+.formatacao_tabela{
+    margin: 30px 0 0 40px;
+    width: 90%;
+    border-collapse: collapse;
+}
+th, td{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.titulo_h1{
+    text-align: center;
+    font: bold 20px arial, verdana, sans-serif;
+    margin: 40px 0 15px
+}
 #art1{
     width: 259px;
     height: 220px;
@@ -64,12 +85,6 @@
     border: 2px solid #000;
     border-radius: 8px;
 }
-.titulo_1{
-    text-align: center;
-    font: bold 20px arial, verdana, sans-serif;
-    margin: 40px 0 15px
-}
-
 #art2{
     width: 259px;
     height: 220px;
@@ -78,11 +93,7 @@
     border-radius: 8px;
     margin: 0 4px 0;
 }
-.titulo_2{
-    text-align: center;
-    font: bold 20px arial, verdana, sans-serif;
-    margin: 40px 0 15px
-}
+
 #art3{
     width: 259px;
     height: 220px;
@@ -90,11 +101,7 @@
     border: 2px solid #000;
     border-radius: 8px;
 }
-.titulo_3{
-    text-align: center;
-    font: bold 20px arial, verdana, sans-serif;
-    margin: 40px 0 15px
-}
+
 #art4{
     width: 793px;
     height: 221px;
@@ -103,11 +110,6 @@
     border-radius: 8px;
     margin: 5px auto 0;
 
-}
-.titulo_4{
-    text-align: center;
-    font: bold 20px arial, verdana, sans-serif;
-    margin: 40px 0 0;
 }
 .img_arvore{
     display: block;
@@ -118,17 +120,7 @@
     padding: 0 15px;
     
 }
- #banner2{
-    width: 195px;
-    height: 450px;
-    float: right;
-    background: url(../imagem/racao.png); /*imagem via css*/
-    border: 2px solid #000;
-    border-radius: 8px; 
-} 
-.img_racao{
-    border-radius: 5px;
-}
+
 .link_leia{
     font: bold 12px arial, verdana, sans-serif;
     float: right;
@@ -136,16 +128,18 @@
 
 }
 .img_acessorio{
-    width: 270px;
+    width: 200px;
+    float: right;
     display: block;
     border-radius: 20px;
     border: 1px solid #215;
-    margin: 50px 20px 50px;    
-}
+    margin: 10px 37px  50px;
+} 
 
 /*Puxa a mesma cor da barra layout*/
 #rodape{
-    clear: both;   
+    clear: both;
+    
 }
 .rodape_p{
     width: 996px;
