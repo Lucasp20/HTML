@@ -41,13 +41,13 @@
 }
 #lado_esquerdo{
     width: 800px;
-    height: 450px;
+    height: 440px;
     float: left;
         
 }
 #lado_direito{
     width: 195px;
-    height: 450px;
+    height: 440px;
     float: right;
     border: 2px solid #000;
     border-radius: 8px;
@@ -79,18 +79,14 @@ tr:nth-child(even) {
     margin: 40px 0 15px
 }
 #art1{
-    width: 259px;
+    width: 265px;
     height: 220px;
     float: left;
-    border: 2px solid #000;
-    border-radius: 8px;
 }
 #art2{
-    width: 259px;
+    width: 265px;
     height: 220px;
     float: left;
-    border: 2px solid #000;
-    border-radius: 8px;
     margin: 0 4px 0;
 }
 
@@ -98,17 +94,13 @@ tr:nth-child(even) {
     width: 259px;
     height: 220px;
     float: left;
-    border: 2px solid #000;
-    border-radius: 8px;
 }
 
 #art4{
-    width: 793px;
+    width: 797px;
     height: 221px;
     float: left;
-    border: 2px solid #000;
-    border-radius: 8px;
-    margin: 5px auto 0;
+    margin: 4px auto 0;
 
 }
 .img_arvore{
@@ -139,7 +131,6 @@ tr:nth-child(even) {
 /*Puxa a mesma cor da barra layout*/
 #rodape{
     clear: both;
-    
 }
 .rodape_p{
     width: 996px;
