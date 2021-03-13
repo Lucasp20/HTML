@@ -45,6 +45,14 @@
     float: left;
     margin: 5px 0;
 } 
+.config_lado_direito{
+    margin: 10px 10px
+}
+.img_lado_direito{
+    width: 100px;
+    display: block;
+    margin: 10px 70px;
+}
 #barra_lado_direito{
     width: 253px;
     height: 39px;
@@ -106,17 +114,28 @@
     height: 39px;
     background-color: #a8a8b7;
  }
-
+.img_persona{
+    display: block;
+    float: right;
+    margin: 20px 20px;
+}
+.config_persona{
+    padding: 20px 17px;
+}
 .titulo_h1{
     text-align: center;
     font: bold 16px arial, verdana;
     padding: 10px;
     color:black;
 }
-
 .fundo_bloco{
     background: #dfdfe6;
 }  
 #rodape{
    clear: both;
+}
+.rodape_p{
+    text-align: center;
+    padding: 12px;
+    font: bold 12px arial, verdana;
 }
