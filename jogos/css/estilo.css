@@ -5,7 +5,7 @@
 #container{
     width: 800px;
     height: 795px;
-    margin: 0 auto;   
+    margin: 0 auto;       
 }
 .barra_layout{
     width: 800px;
@@ -40,16 +40,33 @@
     margin: 5px 0;
 }
 #lado_direito{
-    width: 250px;
-    height: 485px;
-    float: right;
+    width: 254px;
+    height: 484px;
+    float: left;
     margin: 5px 0;
-    background-color: rosybrown;  
 } 
+#barra_lado_direito{
+    width: 253px;
+    height: 39px;
+    background-color: #a8a8b7;
+ }
  #bloco1{
     width: 543px;
     height: 208px;
     float: left;
+ }
+ .img_play{
+     display: block;
+     float: left;
+     margin: 25px 30px 0;
+ }
+.config_text_1{
+    padding: 35px 15px;
+}
+ #barra_bloco1{
+    width: 543px;
+    height: 39px;
+    background-color: #a8a8b7;
  }
 #bloco2{
     width: 270px;
@@ -57,13 +74,49 @@
     float: left;
     margin: 2px 0;
 }
+.img_jogo1{
+    display: block;
+    float: left;
+    margin: 30px 40px 0;
+}
+.config_promo1{
+    padding: 40px 15px;
+}
+.img_jogo2{
+    display: block;
+    float: left;
+    margin: 5px 40px;
+}
+.config_promo2{
+    padding: 10px 15px;
+}
+#barra_bloco2{
+    width: 270px;
+    height: 39px;
+    background-color: #a8a8b7;
+ }
 #bloco3{
     width: 270px;
     height: 274px;
     float: left;
     margin: 2px 3px;
 } 
+#barra_bloco3{
+    width: 270px;
+    height: 39px;
+    background-color: #a8a8b7;
+ }
+
+.titulo_h1{
+    text-align: center;
+    font: bold 16px arial, verdana;
+    padding: 10px;
+    color:black;
+}
 
 .fundo_bloco{
     background: #dfdfe6;
 }  
+#rodape{
+   clear: both;
+}
