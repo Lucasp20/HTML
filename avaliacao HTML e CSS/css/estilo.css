@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#geral {
+    width: 1000px;
+    height: 720;
+    margin: 0 auto;
+}
+#barra_superior{
+    width: 1000px;
+    height: 34px;
+    background: #000;
+}
+#menu{
+    width: 1000px;
+    height: 70px;
+    background: #2980b9;
+}
+#menu{
+    clear: both;
+}
+#menu ul{
+    text-align: right;
+    padding: 24px 50px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+    font: bold 20px arial, verdana, sans-serif;
+
+}
+
+#banner1{
+    width: 1000px;
+    height: 291px;
+    background: url(../imagens/banner.png);
+}
+#bloco{
+    width: 1000px;
+    height: 266px;
+    float: left;
+    margin-top: 2px;
+}
+#art1{
+    width: 248px;
+    height: 266px;
+    float: left;
+    background: #f0f0f0;
+}
+#art2{
+    width: 248px;
+    height: 266px;
+    float: left;
+    background: #f0f0f0;
+    margin: 0px 2px 0px;
+}
+#art3{
+    width: 248px;
+    height: 266px;
+    float: left;
+    background: #f0f0f0;
+    
+}
+#art4{
+    width: 248px;
+    height: 266px;
+    float: right;
+    background: #f0f0f0;
+    margin: 0 2px 0;
+}
+.imgbloco{
+    display: block;
+    margin: 20px auto;
+}
+.config_h1_bloco{
+    text-align: center;
+    color: #A9A9A9;
+    font-family: Times New Roman,Times, serif;
+    font-size: 22px;
+    margin: 25px 0 10px;
+}
+.config_text_bloco{
+    text-align: center;
+
+}
+#barra_inferior{
+    width: 1000px;
+    height: 156px;
+    float: right;
+    margin-top: 2px;
+    background: #3398DB;
+}
+
+#rodape{
+    width: 1000px;
+    height: 72px;
+    background: #636363;
+    float: right;
+    margin-top: 2px;
+}
+.rodape{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 28px;
+}
