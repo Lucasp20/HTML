@@ -1,7 +1,9 @@
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
 #geral {
     width: 1000px;
     height: 720;
@@ -11,6 +13,20 @@
     width: 1000px;
     height: 34px;
     background: #000;
+}
+.logar{
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding: 8px 50px;
+    font-size: 13px;
+}
+.venda{
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding: 8px 50px;
+    font-size: 13px;
 }
 #menu{
     width: 1000px;
@@ -22,7 +38,7 @@
 }
 #menu ul{
     text-align: right;
-    padding: 24px 50px;
+    padding: 22px 50px;
 }
 #menu ul li{
     display: inline;
@@ -30,11 +46,10 @@
 #menu ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 0px 10px;
-    font: bold 20px arial, verdana, sans-serif;
-
+    padding: 0px 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
-
 #banner1{
     width: 1000px;
     height: 291px;
@@ -75,18 +90,22 @@
 }
 .imgbloco{
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 .config_h1_bloco{
     text-align: center;
     color: #A9A9A9;
-    font-family: Times New Roman,Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
-    margin: 25px 0 10px;
 }
 .config_text_bloco{
     text-align: center;
-
+    color: #A9A9A9;
+    margin: 10px;
+}
+.link_saibaMais{
+    float: left;
+    padding: 4px 78px;
 }
 #barra_inferior{
     width: 1000px;
@@ -94,6 +113,20 @@
     float: right;
     margin-top: 2px;
     background: #3398DB;
+}
+.config_h1_barra{
+    color: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    font-size: 34px;
+}
+.config_h2_barra{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 #rodape{
